@@ -3,15 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Receive $50 toward your first Tox treatment at Soul Glow Medspa in Farmers Branch.">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17497874996"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-17497874996');
-    </script>
-    <title>Complimentary Tox Treatment | Soul Glow Medspa Farmers Branch</title>
+    <title>Complimentary Tox Treatment | Soul Glow Medspa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,22 +11,12 @@
     <style>
         body { font-family: 'Montserrat', sans-serif; }
         h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
-        .bg-gold { background-color: #C5A059; }
         .text-gold { color: #C5A059; }
-        .border-gold { border-color: #C5A059; }
-        .gold-gradient { background: linear-gradient(135deg, #C5A059 0%, #F1D38E 50%, #B38728 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .btn-gold { background: linear-gradient(135deg, #B38728 0%, #C5A059 100%); color: white; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); letter-spacing: 2px; }
+        .btn-gold { background: linear-gradient(135deg, #B38728 0%, #C5A059 100%); color: white; transition: 0.4s; }
         .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(179, 135, 40, 0.3); }
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #000; }
-        ::-webkit-scrollbar-thumb { background: #C5A059; }
     </style>
 </head>
 <body class="bg-white text-black overflow-x-hidden">
-
-    <div class="bg-black text-white text-center py-3 text-[10px] font-bold tracking-[0.3em] uppercase border-b border-amber-900/30">
-        ✨ LIMITED TIME: Claim $50 Toward Your Tox Treatment • <a href="#claim-form" class="text-gold underline underline-offset-4 uppercase">Claim Now</a>
-    </div>
 
     <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
@@ -42,66 +24,70 @@
                 <span class="text-2xl font-serif font-bold tracking-[0.2em] uppercase leading-none">Soul Glow</span>
                 <span class="text-[9px] tracking-[0.4em] uppercase text-gold font-bold mt-1">Medspa</span>
             </div>
-            <a href="#claim-form" class="btn-gold px-8 py-3 rounded-none text-[10px] font-bold uppercase">Claim Offer</a>
+            <a href="#claim-form" class="btn-gold px-8 py-3 text-[10px] font-bold uppercase tracking-widest">Claim Offer</a>
         </div>
     </nav>
 
     <header class="relative h-[90vh] flex items-center justify-center bg-black overflow-hidden">
         <div class="absolute inset-0 opacity-40">
-            <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover" alt="Medspa aesthetics">
+            <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover">
         </div>
-        <div class="relative z-10 text-center px-4" data-aos="fade-up" data-aos-duration="1500">
-            <span class="text-gold text-xs font-bold uppercase tracking-[0.5em] mb-6 block">Farmers Branch, Texas</span>
-            <h1 class="text-white text-6xl md:text-8xl font-serif mb-8 leading-tight">
-                Beauty, <br><span class="italic gold-gradient font-normal">Perfected.</span>
-            </h1>
-            <p class="text-slate-300 max-w-xl mx-auto text-sm md:text-base leading-relaxed tracking-wide mb-12 font-light">
-                Experience precision Tox treatments designed to enhance your natural features. Get $50 toward your first visit.
-            </p>
+        <div class="relative z-10 text-center px-4" data-aos="fade-up">
+            <h1 class="text-white text-6xl md:text-8xl font-serif mb-8 leading-tight italic">Radiance,<br>Perfected.</h1>
+            <p class="text-slate-200 max-w-xl mx-auto text-sm md:text-base mb-12 font-light">Experience precision Tox treatments by Ari Sanchez. Get $50 toward your first visit.</p>
             <a href="#claim-form" class="btn-gold px-12 py-5 inline-block text-xs font-bold uppercase tracking-[0.2em]">Claim $50 Off & Book Now</a>
         </div>
     </header>
 
-    <section id="about" class="py-32 px-6 bg-white">
+    <section id="about" class="py-32 px-6">
         <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
-            <div data-aos="fade-right" class="flex justify-center lg:justify-end">
-                <div class="relative">
-                    <img src="image00007.jpg" alt="Ari Sanchez, Clinical Provider" class="relative z-10 shadow-2xl rounded-xl w-full max-w-md object-cover border-4 border-white">
-                    <div class="absolute -bottom-6 -right-6 w-full h-full border-8 border-gold/20 -z-0 rounded-xl"></div>
-                </div>
-            </div>
+            <div data-aos="fade-right"><img src="image00007.jpg" class="shadow-2xl rounded-xl w-full max-w-md mx-auto"></div>
             <div data-aos="fade-left">
-                <span class="text-gold font-bold text-xs uppercase tracking-[0.3em] mb-4 block">Precision Aesthetics</span>
-                <h2 class="text-4xl md:text-5xl font-serif leading-tight mb-8">Clinical Artistry by <br>Ari Sanchez</h2>
-                <p class="text-slate-600 mb-8 leading-relaxed">
-                    At Soul Glow Medspa, we believe in a natural approach to Tox. Ari utilizes 14 years of clinical experience to tailor every injection to your specific facial anatomy, ensuring results that are subtle, refreshed, and entirely you.
-                </p>
-                <a href="#claim-form" class="inline-block border-b-2 border-gold text-[10px] font-bold uppercase tracking-widest pb-1 hover:text-amber-600 transition">Secure Your $50 Credit →</a>
+                <h2 class="text-4xl font-serif mb-8">Clinical Artistry by <br>Ari Sanchez</h2>
+                <p class="text-slate-600 mb-8 leading-relaxed">Ari utilizes 14 years of clinical experience to tailor every Tox injection to your unique facial anatomy. We believe in results that look like you, only better.</p>
+                <a href="#claim-form" class="border-b-2 border-[#C5A059] pb-1 font-bold text-[10px] uppercase tracking-widest hover:text-amber-600 transition">Secure Your Credit →</a>
             </div>
         </div>
     </section>
 
-    <section id="results" class="py-32 bg-black text-white">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-4xl font-serif mb-20" data-aos="fade-up">Results Gallery</h2>
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="group cursor-pointer" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="w-full overflow-hidden rounded-xl bg-slate-900 shadow-lg mb-6"><img src="./undereye3.png" class="w-full h-auto block"></div>
-                    <h3 class="text-gold text-xs font-bold uppercase tracking-widest">Smooth Brow</h3>
+    <section id="results" class="py-32 bg-black text-white px-6 text-center">
+        <h2 class="text-4xl font-serif mb-20" data-aos="fade-up">Transformation Gallery</h2>
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+            <div class="bg-slate-900 rounded-xl overflow-hidden h-64"><img src="https://images.unsplash.com/photo-1596464303290-7d7d6f51953d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70"></div>
+            <div class="bg-slate-900 rounded-xl overflow-hidden h-64"><img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70"></div>
+            <div class="bg-slate-900 rounded-xl overflow-hidden h-64"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70"></div>
+        </div>
+    </section>
+
+    <section id="location" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-up">
+                <h2 class="text-4xl font-serif mb-8">Visit Our Studio</h2>
+                <div class="space-y-6 text-slate-700">
+                    <p><i class="fas fa-map-pin text-[#C5A059] mr-3"></i> 8 Medical Parkway, Ste 302, Farmers Branch, TX 75234</p>
+                    <p><i class="fas fa-phone text-[#C5A059] mr-3"></i> (214) 810-5905</p>
+                    <p><i class="fas fa-clock text-[#C5A059] mr-3"></i> Mon – Sat: 10:00 AM – 6:00 PM</p>
                 </div>
-                <div class="group cursor-pointer" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="w-full overflow-hidden rounded-xl bg-slate-900 shadow-lg mb-6"><img src="./undereye2.png" class="w-full h-auto block"></div>
-                    <h3 class="text-gold text-xs font-bold uppercase tracking-widest">Crows Feet</h3>
-                </div>
-                <div class="group cursor-pointer" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="w-full overflow-hidden rounded-xl bg-slate-900 shadow-lg mb-6"><img src="./undereye1.png" class="w-full h-auto block"></div>
-                    <h3 class="text-gold text-xs font-bold uppercase tracking-widest">Natural Lift</h3>
-                </div>
+            </div>
+            <div class="h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.3772062526605!2d-96.8701995!3d32.9146309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21b353709457%3A0xed9c77af9fb98beb!2sSoul%20Glow%20Medspa!5e0!3m2!1sen!2sus!4v1779901783721!5m2!1sen!2sus" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <section id="claim-form" class="py-24 bg-slate-950 text-white px-6">
+    <section id="claim-form" class="py-24 bg-slate-50 px-6">
         <div class="max-w-xl mx-auto text-center">
-            <h2 class="text-3xl font-serif mb-4">Claim Your $50 Tox Credit</h2>
-            <p class="text-slate-400 mb-10 text-sm">Enter
+            <h2 class="text-3xl font-serif mb-8">Claim Your $50 Tox Credit</h2>
+            <iframe src="https://link.rlrstudios.ca/widget/form/PgXW5en9r99WM2W7KJOm" style="width:100%;height:745px;border:none;"></iframe>
+            <script src="https://link.rlrstudios.ca/js/form_embed.js"></script>
+        </div>
+    </section>
+
+    <footer class="py-16 text-center bg-black text-white text-[10px] uppercase tracking-[0.3em]">
+        © 2026 Soul Glow Medspa LLC. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
