@@ -7,85 +7,57 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
         body { font-family: 'Montserrat', sans-serif; }
-        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
-        .text-gold { color: #C5A059; }
-        .btn-gold { background: linear-gradient(135deg, #B38728 0%, #C5A059 100%); color: white; transition: 0.4s; }
-        .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(179, 135, 40, 0.3); }
-        .gold-border { border-color: #C5A059; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        .btn-gold { background: linear-gradient(135deg, #B38728 0%, #C5A059 100%); color: white; }
     </style>
 </head>
-<body class="bg-white text-black overflow-x-hidden">
+<body class="bg-white text-black">
 
-    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-            <div class="flex flex-col items-center">
-                <span class="text-2xl font-serif font-bold tracking-[0.2em] uppercase leading-none">Soul Glow</span>
-                <span class="text-[9px] tracking-[0.4em] uppercase text-gold font-bold mt-1">Medspa</span>
-            </div>
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 h-20 flex items-center px-6">
+        <div class="max-w-7xl mx-auto w-full flex justify-between items-center">
+            <div class="flex flex-col"><span class="text-2xl font-bold tracking-[0.2em] uppercase">Soul Glow</span><span class="text-[9px] tracking-[0.4em] text-[#C5A059] font-bold">Medspa</span></div>
             <a href="#claim-form" class="btn-gold px-8 py-3 text-[10px] font-bold uppercase tracking-widest">Claim Offer</a>
         </div>
     </nav>
 
-    <header class="relative h-[85vh] flex items-center justify-center bg-black overflow-hidden">
-        <div class="absolute inset-0 opacity-40">
-            <img src="https://images.unsplash.com/photo-1598440947619-2c35fc95c088?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover" alt="Luxury Medspa">
-        </div>
-        <div class="relative z-10 text-center px-6" data-aos="fade-up" data-aos-duration="1200">
-            <h1 class="text-white text-5xl md:text-8xl font-serif mb-6 italic leading-tight">Radiance, <br>Refined.</h1>
-            <p class="text-slate-200 max-w-lg mx-auto text-sm md:text-lg mb-10 font-light">Precision Tox treatments by Ari Sanchez. Receive $50 toward your treatment on your first visit.</p>
-            <a href="#claim-form" class="btn-gold px-10 py-5 text-[10px] font-bold uppercase tracking-[0.2em] inline-block">Claim $50 Free Tox</a>
+    <header class="h-[80vh] flex items-center justify-center bg-black relative">
+        <img src="https://images.unsplash.com/photo-1598440947619-2c35fc95c088?q=80&w=2000" class="absolute w-full h-full object-cover opacity-50">
+        <div class="relative z-10 text-center px-6 text-white" data-aos="fade-up">
+            <h1 class="text-6xl md:text-8xl font-serif italic mb-6">Radiance,<br>Refined.</h1>
+            <p class="mb-10 text-lg font-light">Precision Tox by Ari Sanchez. $50 toward your first visit.</p>
+            <a href="#claim-form" class="btn-gold px-10 py-4 text-xs font-bold uppercase tracking-[0.2em]">Claim $50 Free Tox</a>
         </div>
     </header>
 
-    <section id="about" class="py-24 px-6 bg-white">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-            <div data-aos="fade-right" data-aos-delay="200">
-                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" class="shadow-2xl rounded-2xl w-full" alt="Ari Sanchez">
-            </div>
-            <div data-aos="fade-left" data-aos-delay="400">
-                <h2 class="text-4xl font-serif mb-6">Expert Care by Ari Sanchez</h2>
-                <p class="text-slate-600 mb-6 leading-relaxed">With 14 years of clinical experience, Ari specializes in creating natural, refreshed looks. Your Tox treatment is personalized to your facial structure, focusing on subtle enhancement.</p>
-                <a href="#claim-form" class="border-b-2 border-[#C5A059] pb-1 font-bold text-[10px] uppercase tracking-widest hover:text-amber-700 transition">Secure Your Credit →</a>
-            </div>
+    <section class="py-24 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+        <div data-aos="fade-right"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800" class="rounded-2xl shadow-xl"></div>
+        <div data-aos="fade-left">
+            <h2 class="text-4xl font-serif mb-6">Expert Care by Ari Sanchez</h2>
+            <p class="text-slate-600 mb-6">With 14 years of clinical experience, Ari specializes in natural results. Your treatment is personalized to your facial structure.</p>
         </div>
     </section>
 
-    <section id="results" class="py-24 bg-black text-white px-6 text-center">
-        <h2 class="text-4xl font-serif mb-16" data-aos="fade-up">Transformation Gallery</h2>
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="rounded-xl overflow-hidden shadow-lg bg-slate-900 h-64" data-aos="zoom-in" data-aos-delay="100">
-                <img src="https://images.unsplash.com/photo-1596464303290-7d7d6f51953d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70">
-            </div>
-            <div class="rounded-xl overflow-hidden shadow-lg bg-slate-900 h-64" data-aos="zoom-in" data-aos-delay="200">
-                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70">
-            </div>
-            <div class="rounded-xl overflow-hidden shadow-lg bg-slate-900 h-64" data-aos="zoom-in" data-aos-delay="300">
-                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70">
-            </div>
+    <section class="py-24 bg-black text-white px-6 text-center">
+        <h2 class="text-4xl font-serif mb-16">Transformation Gallery</h2>
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <img src="https://images.unsplash.com/photo-1596464303290-7d7d6f51953d?q=80&w=600" class="rounded-lg">
+            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600" class="rounded-lg">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=600" class="rounded-lg">
         </div>
     </section>
 
-    <section id="location" class="py-24 px-6">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-            <div data-aos="fade-up">
-                <h2 class="text-4xl font-serif mb-8">Visit Our Studio</h2>
-                <div class="space-y-4 text-slate-700">
-                    <p><i class="fas fa-map-pin text-[#C5A059] mr-3"></i> 8 Medical Parkway, Ste 302, Farmers Branch, TX 75234</p>
-                    <p><i class="fas fa-phone text-[#C5A059] mr-3"></i> (214) 810-5905</p>
-                    <p><i class="fas fa-clock text-[#C5A059] mr-3"></i> Mon – Sat: 10:00 AM – 6:00 PM</p>
-                </div>
-            </div>
-            <div class="h-[300px] md:h-[400px] w-full rounded-2xl overflow-hidden shadow-xl" data-aos="fade-up" data-aos-delay="200">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.3772062526605!2d-96.8701995!3d32.9146309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21b353709457%3A0xed9c77af9fb98beb!2sSoul%20Glow%20Medspa!5e0!3m2!1sen!2sus!4v1779901783721!5m2!1sen!2sus" class="w-full h-full" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+    <section id="claim-form" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-xl mx-auto text-center">
+            <h2 class="text-3xl font-serif mb-8">Claim Your $50 Tox Credit</h2>
+            <iframe src="https://link.rlrstudios.ca/widget/form/PgXW5en9r99WM2W7KJOm" style="width:100%;height:745px;border:none;"></iframe>
+            <script src="https://link.rlrstudios.ca/js/form_embed.js"></script>
         </div>
     </section>
 
-    <section id="claim-form" class="py-24 bg-slate-50 px-6">
-        <div class="max-w-xl mx-auto text-center" data-aos="zoom-in">
-            <h2 class="text-3xl font-serif mb-4">Claim Your $50 Tox Credit</h2>
-            <iframe src="https://link.rlrstudios.ca/widget/form/PgXW5en9r99WM2W7KJOm" style="width:100%;height:745px;border:none;border-radius:12px;"></iframe>
-            <script src="
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
