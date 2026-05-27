@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complimentary Tox Treatment | Soul Glow Medspa Farmers Branch</title>
+    <title>Complimentary Tox Treatment | Soul Glow Medspa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -14,6 +14,7 @@
         .text-gold { color: #C5A059; }
         .btn-gold { background: linear-gradient(135deg, #B38728 0%, #C5A059 100%); color: white; transition: 0.4s; }
         .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(179, 135, 40, 0.3); }
+        .gold-border { border-color: #C5A059; }
     </style>
 </head>
 <body class="bg-white text-black overflow-x-hidden">
@@ -39,10 +40,10 @@
         </div>
     </header>
 
-    <section id="about" class="py-24 px-6">
+    <section id="about" class="py-24 px-6 bg-white">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
             <div data-aos="fade-right" data-aos-delay="200">
-                <img src="image00007.jpg" class="shadow-2xl rounded-2xl w-full" alt="Ari Sanchez">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" class="shadow-2xl rounded-2xl w-full" alt="Ari Sanchez">
             </div>
             <div data-aos="fade-left" data-aos-delay="400">
                 <h2 class="text-4xl font-serif mb-6">Expert Care by Ari Sanchez</h2>
@@ -55,9 +56,15 @@
     <section id="results" class="py-24 bg-black text-white px-6 text-center">
         <h2 class="text-4xl font-serif mb-16" data-aos="fade-up">Transformation Gallery</h2>
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="rounded-xl overflow-hidden shadow-lg" data-aos="zoom-in" data-aos-delay="100"><img src="./undereye3.png" class="w-full h-full object-cover"></div>
-            <div class="rounded-xl overflow-hidden shadow-lg" data-aos="zoom-in" data-aos-delay="200"><img src="./undereye2.png" class="w-full h-full object-cover"></div>
-            <div class="rounded-xl overflow-hidden shadow-lg" data-aos="zoom-in" data-aos-delay="300"><img src="./undereye1.png" class="w-full h-full object-cover"></div>
+            <div class="rounded-xl overflow-hidden shadow-lg bg-slate-900 h-64" data-aos="zoom-in" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1596464303290-7d7d6f51953d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70">
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-lg bg-slate-900 h-64" data-aos="zoom-in" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70">
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-lg bg-slate-900 h-64" data-aos="zoom-in" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover opacity-70">
+            </div>
         </div>
     </section>
 
@@ -80,24 +87,5 @@
     <section id="claim-form" class="py-24 bg-slate-50 px-6">
         <div class="max-w-xl mx-auto text-center" data-aos="zoom-in">
             <h2 class="text-3xl font-serif mb-4">Claim Your $50 Tox Credit</h2>
-            <p class="text-slate-500 mb-10 text-sm">Lock in your offer and book your initial consultation.</p>
-            <iframe
-                src="https://link.rlrstudios.ca/widget/form/PgXW5en9r99WM2W7KJOm"
-                style="width:100%;height:745px;border:none;border-radius:8px"
-                id="inline-PgXW5en9r99WM2W7KJOm" 
-                data-layout="{'id':'INLINE'}"
-                data-form-name="$50 OFF BOTOX GOOGLE FORM"
-                title="$50 OFF BOTOX GOOGLE FORM">
-            </iframe>
-            <script src="https://link.rlrstudios.ca/js/form_embed.js"></script>
-        </div>
-    </section>
-
-    <footer class="py-12 text-center bg-black text-white text-[10px] uppercase tracking-[0.3em]">
-        © 2026 Soul Glow Medspa LLC
-    </footer>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init({ duration: 1000, once: true, offset: 50 });</script>
-</body>
-</html>
+            <iframe src="https://link.rlrstudios.ca/widget/form/PgXW5en9r99WM2W7KJOm" style="width:100%;height:745px;border:none;border-radius:12px;"></iframe>
+            <script src="
