@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17497874996"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17497874996');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17497874996"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17497874996');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complimentary Tox Treatment | Soul Glow Medspa</title>
+    <title>$50 Credit toward your Tox Treatment | Soul Glow Medspa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -27,24 +26,37 @@
 </head>
 <body class="bg-white text-black overflow-x-hidden">
 
+    <!-- Sticky Mobile CTA -->
+    <div class="fixed bottom-0 w-full z-50 lg:hidden">
+        <a href="#claim-form" class="btn-gold block w-full py-4 text-center font-bold uppercase tracking-widest text-xs">Claim $50 Credit</a>
+    </div>
+
     <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <div class="flex flex-col items-center">
                 <span class="text-2xl font-serif font-bold tracking-[0.2em] uppercase leading-none">Soul Glow</span>
                 <span class="text-[9px] tracking-[0.4em] uppercase text-gold font-bold mt-1">Medspa</span>
             </div>
-            <a href="#claim-form" class="btn-gold px-8 py-3 text-[10px] font-bold uppercase tracking-widest">Claim Offer</a>
+            <a href="#claim-form" class="hidden lg:block btn-gold px-8 py-3 text-[10px] font-bold uppercase tracking-widest">Claim Offer</a>
         </div>
     </nav>
 
-    <header class="relative h-[90vh] flex items-center justify-center bg-black overflow-hidden">
+    <!-- Hero Section -->
+    <header class="relative min-h-[90vh] flex items-center bg-black overflow-hidden py-20">
         <div class="absolute inset-0 opacity-40">
             <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDptmfyH8B8WEC6cRDFYCTuG_x7aG5omV6uEQm-56Jjk8ARMu-yAKRUs9Kw6mQOAQbboF7vxxUOaRFyziLxEVw_oQx598cukB5HhVAA7v_r_uqqsJqrMe42e7gGQOQtU3c7kmlHHM7tq_F=s680-w680-h510-rw" class="w-full h-full object-cover">
         </div>
-        <div class="relative z-10 text-center px-4" data-aos="fade-up">
-            <h1 class="text-white text-6xl md:text-8xl font-serif mb-8 leading-tight italic">Radiance,<br>Perfected.</h1>
-            <p class="text-slate-200 max-w-xl mx-auto text-sm md:text-base mb-12 font-light">Experience precision Tox treatments by Ari Sanchez. Get $50 toward your first visit.</p>
-            <a href="#claim-form" class="btn-gold px-12 py-5 inline-block text-xs font-bold uppercase tracking-[0.2em]">Claim $50 Off & Book Now</a>
+        <div class="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center w-full">
+            <div data-aos="fade-right" class="text-white">
+                <h1 class="text-5xl md:text-7xl font-serif mb-6 leading-tight italic">Soft, Natural Results—Without the Stress.</h1>
+                <p class="text-slate-200 text-lg mb-8 font-light max-w-md">Experience precision Tox treatments by Ari Sanchez, NP. Get $50 toward your first visit and look like you, only refreshed.</p>
+                <div class="hidden lg:block text-gold font-bold uppercase tracking-widest text-xs border-l-2 border-gold pl-4">Limited introductory credits available this month.</div>
+            </div>
+            <div id="claim-form" data-aos="fade-left" class="bg-white p-2 rounded-xl shadow-2xl">
+                <h2 class="text-2xl font-serif text-center py-6">Claim Your $50 Credit</h2>
+                <iframe src="https://link.rlrstudios.ca/widget/form/PgXW5en9r99WM2W7KJOm" style="width:100%;height:600px;border:none;"></iframe>
+                <script src="https://link.rlrstudios.ca/js/form_embed.js"></script>
+            </div>
         </div>
     </header>
 
@@ -59,31 +71,27 @@
         </div>
     </section>
 
-   <section id="results" class="py-32 bg-black text-white px-6 text-center">
+    <section id="results" class="py-32 bg-black text-white px-6 text-center">
         <h2 class="text-4xl font-serif mb-20" data-aos="fade-up">Transformation Gallery</h2>
         <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
-            
             <div class="group" data-aos="zoom-in" data-aos-delay="100">
                 <div class="bg-slate-900 rounded-xl overflow-hidden h-64 mb-4">
                     <img src="case-1.png.png" class="w-full h-full object-cover opacity-90">
                 </div>
                 <p class="text-gold text-[10px] font-bold tracking-[0.2em] uppercase">Case ID: 5948</p>
             </div>
-
             <div class="group" data-aos="zoom-in" data-aos-delay="200">
                 <div class="bg-slate-900 rounded-xl overflow-hidden h-64 mb-4">
                     <img src="case-2.png.png" class="w-full h-full object-cover opacity-90">
                 </div>
                 <p class="text-gold text-[10px] font-bold tracking-[0.2em] uppercase">Case ID: 8213</p>
             </div>
-
             <div class="group" data-aos="zoom-in" data-aos-delay="300">
                 <div class="bg-slate-900 rounded-xl overflow-hidden h-64 mb-4">
                     <img src="case-3.png.png" class="w-full h-full object-cover opacity-90">
                 </div>
                 <p class="text-gold text-[10px] font-bold tracking-[0.2em] uppercase">Case ID: 3391</p>
             </div>
-
         </div>
     </section>
 
@@ -100,14 +108,6 @@
             <div class="h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.3772062526605!2d-96.8701995!3d32.9146309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21b353709457%3A0xed9c77af9fb98beb!2sSoul%20Glow%20Medspa!5e0!3m2!1sen!2sus!4v1779901783721!5m2!1sen!2sus" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
             </div>
-        </div>
-    </section>
-
-    <section id="claim-form" class="py-24 bg-slate-50 px-6">
-        <div class="max-w-xl mx-auto text-center">
-            <h2 class="text-3xl font-serif mb-8">Claim Your $50 Tox Credit</h2>
-            <iframe src="https://link.rlrstudios.ca/widget/form/PgXW5en9r99WM2W7KJOm" style="width:100%;height:745px;border:none;"></iframe>
-            <script src="https://link.rlrstudios.ca/js/form_embed.js"></script>
         </div>
     </section>
 
